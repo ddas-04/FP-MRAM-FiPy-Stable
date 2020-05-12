@@ -170,7 +170,7 @@ phi_save=[]
 integ_rho_sin_theta=[] # every theta integration values for each phi values will be stored here
 i=0
 total_size=0
-
+phi_value=0.0*numerix.pi # initial phi value  
 while phi_value < (2.0*np.pi):
 	print(phi_value*rad_2_deg)
 	phi_save=np.append(phi_save,phi_value)    # save phi value for 2nd integration
